@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #FBFF00;
+    --bg: #0A0A0A;
+    --surface: #111111;
+    --surface2: #1A1A1A;
+    --textPrimary: #FFFFFF;
+    --textSecondary: #888888;
+    --textFaint: #444444;
+    --borderColor: rgba(255, 255, 255, 0.08);
+    --accentDim: rgba(251, 255, 0, 0.10);
+    --accentBorder: rgba(251, 255, 0, 0.20);
+    --accentBorderStrong: rgba(251, 255, 0, 0.50);
+    --error: #EF4444;
+  }
+}
+
+/* Base styles for the outer container */
+.flex-1 {
+  flex: 1;
+}
+
+.bg-bg {
+  background-color: #0A0A0A;
+}
+
+/* Global Font Defaults (if native supports inherited font family via NativeWind) */
+* {
+  font-family: 'JetBrainsMono_400Regular';
+  color: #FFFFFF;
+}
