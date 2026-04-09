@@ -93,4 +93,4 @@ This project follows a **Feature-Based Architecture**:
 Privately owned for GymOS development.
 
 ---
-*Created with ❤️ by Caio Miranda & Antigravity (Google Deepmind)*
+*Created with ❤️ by Caio Miranda*
